@@ -1,0 +1,129 @@
+:root{
+  --bg:#f6f7f9;
+  --card:#ffffff;
+  --text:#1f2937;
+  --muted:#6b7280;
+  --brand:#2f6f6a;
+  --brand2:#245a56;
+  --border:#e5e7eb;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color:var(--text);
+  background:var(--bg);
+  line-height:1.6;
+}
+
+a{color:var(--brand); text-decoration:none}
+a:hover{text-decoration:underline}
+
+.container{
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 18px;
+}
+
+.topbar{
+  background: rgba(255,255,255,.85);
+  border-bottom:1px solid var(--border);
+  position: sticky;
+  top:0;
+  backdrop-filter: blur(8px);
+  z-index: 10;
+}
+
+.nav{
+  display:flex;
+  gap:14px;
+  align-items:center;
+  justify-content:space-between;
+  padding: 12px 0;
+}
+
+.brand{
+  font-weight:700;
+  letter-spacing:.2px;
+}
+
+.menu{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+  font-size: 14px;
+}
+.menu a{
+  padding:8px 10px;
+  border-radius: 10px;
+}
+.menu a.active, .menu a:hover{
+  background: #e9f3f2;
+  text-decoration:none;
+}
+
+.hero{
+  padding: 54px 0 22px;
+}
+.hero h1{
+  margin: 0 0 8px;
+  font-size: 36px;
+  line-height: 1.15;
+}
+.hero p{
+  margin: 0 0 16px;
+  color: var(--muted);
+  max-width: 70ch;
+}
+.cta{
+  display:inline-block;
+  background: var(--brand);
+  color:white;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+.cta:hover{
+  background: var(--brand2);
+  text-decoration:none;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 16px;
+  padding-bottom: 30px;
+}
+
+.card{
+  grid-column: span 12;
+  background: var(--card);
+  border:1px solid var(--border);
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 8px 18px rgba(0,0,0,.04);
+}
+
+@media (min-width: 820px){
+  .card.half{grid-column: span 6;}
+  .card.third{grid-column: span 4;}
+}
+
+h2{margin: 0 0 10px; font-size: 20px;}
+ul{margin: 8px 0 0 18px}
+.small{color:var(--muted); font-size: 14px;}
+.footer{
+  padding: 24px 0 40px;
+  color: var(--muted);
+  font-size: 14px;
+}
+.badge{
+  display:inline-block;
+  padding: 6px 10px;
+  border:1px solid var(--border);
+  border-radius: 999px;
+  background:white;
+  font-size: 13px;
+  color: var(--muted);
+}
