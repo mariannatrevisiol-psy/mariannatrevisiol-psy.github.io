@@ -127,3 +127,111 @@ ul{margin: 8px 0 0 18px}
   font-size: 13px;
   color: var(--muted);
 }
+/* --- MENU STYLE (dropdown + contatti button) --- */
+.topbar{
+  background: rgba(255,255,255,.92);
+  border-bottom:1px solid var(--border);
+  position: sticky;
+  top:0;
+  z-index: 20;
+}
+
+.nav{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap: 12px;
+  padding: 12px 0;
+}
+
+.brand{
+  font-weight:700;
+  letter-spacing:.2px;
+  white-space: nowrap;
+}
+
+.menu{
+  display:flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 14px;
+}
+
+/* Link base */
+.menu > a, .dropbtn{
+  padding: 8px 10px;
+  border-radius: 10px;
+  color: var(--text);
+}
+
+.menu > a:hover, .dropbtn:hover{
+  background: #e9f3f2;
+  text-decoration: none;
+}
+
+/* Active */
+.menu a.active{
+  background: #e9f3f2;
+  text-decoration: none;
+}
+
+/* Contatti as button */
+.menu a.cta-nav{
+  background: var(--brand);
+  color: #fff;
+  font-weight: 600;
+  padding: 8px 12px;
+}
+.menu a.cta-nav:hover{
+  background: var(--brand2);
+}
+
+/* Dropdown */
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn{
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+}
+
+.dropdown-content{
+  display:none;
+  position:absolute;
+  right: 0;
+  top: 38px;
+  min-width: 220px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 14px 30px rgba(0,0,0,.08);
+  padding: 6px;
+}
+
+.dropdown-content a{
+  display:block;
+  padding: 10px 10px;
+  border-radius: 10px;
+  color: var(--text);
+}
+.dropdown-content a:hover{
+  background: #f3f4f6;
+  text-decoration:none;
+}
+
+/* Show dropdown on hover (desktop) */
+.dropdown:hover .dropdown-content{
+  display:block;
+}
+
+/* Mobile: stack menu a bit nicer */
+@media (max-width: 720px){
+  .nav{align-items:flex-start}
+  .menu{justify-content:flex-start}
+  .dropdown-content{right:auto; left:0;}
+}
