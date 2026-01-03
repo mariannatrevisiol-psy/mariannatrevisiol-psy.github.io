@@ -235,3 +235,43 @@ ul{margin: 8px 0 0 18px}
   .menu{justify-content:flex-start}
   .dropdown-content{right:auto; left:0;}
 }
+/* HERO con immagine grande */
+.hero-banner{
+  min-height: 70vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding: 90px 18px 50px;
+  position: relative;
+  color: white;
+  background-image:
+    linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
+    url("https://picsum.photos/1600/900");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-title{
+  font-size: 52px;
+  line-height: 1.05;
+  margin: 0 0 10px;
+  font-weight: 700;
+}
+
+.hero-sub{
+  margin: 0;
+  font-size: 18px;
+  opacity: .95;
+}
+
+/* Menu sopra l’immagine */
+.topbar{
+  background: rgba(255,255,255,.85);
+  border-bottom: 1px solid var(--border);
+}
+
+@media (max-width: 720px){
+  .hero-title{font-size: 34px;}
+  .hero-banner{min-height: 60vh; padding-top: 110px;}
+}
