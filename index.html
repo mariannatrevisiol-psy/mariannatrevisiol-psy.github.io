@@ -1,69 +1,92 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <title>Studio di Marianna</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      background: #f7f7f7;
-    }
-    header {
-      background: #6b9080;
-      color: white;
-      padding: 40px;
-      text-align: center;
-    }
-    section {
-      padding: 40px;
-      background: white;
-      margin: 20px;
-      border-radius: 8px;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      color: #555;
-    }
-  </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dott.ssa Marianna Trevisiol – Psicologa</title>
+  <meta name="description" content="Consulenza familiare e sostegno alla genitorialità. Percorsi per adolescenti, genitori e famiglie. In presenza e online." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header>
-  <h1>Dott.ssa Marianna Trevisiol</h1>
-  <p>Psicologa e Psicoterapeuta</p>
+<div class="topbar">
+  <div class="container nav">
+    <div class="brand">Dott.ssa Marianna Trevisiol</div>
+    <nav class="menu">
+      <a class="active" href="index.html">Home</a>
+      <a href="servizi.html">Servizi</a>
+      <a href="contatti.html">Contatti</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </div>
+</div>
+
+<header class="container hero">
+  <span class="badge">In presenza e online</span>
+  <h1>Consulenza familiare e sostegno alla genitorialità</h1>
+  <p>
+    Accompagno genitori e famiglie quando la relazione con l’adolescente diventa faticosa,
+    nei momenti di conflitto, oppositività, chiusura o difficoltà comunicative.
+    L’obiettivo è ritrovare collaborazione, chiarezza e un clima più sereno.
+  </p>
+  <a class="cta" href="contatti.html">Contattami</a>
 </header>
 
-<section>
-  <h2>Di cosa mi occupo</h2>
-  <p>
-    Offro percorsi di supporto psicologico per adolescenti, genitori e famiglie,
-    con attenzione alle relazioni e alle difficoltà evolutive.
-  </p>
-</section>
+<main class="container grid">
 
-<section>
-  <h2>Servizi</h2>
-  <ul>
-    <li>Consulenza genitoriale</li>
-    <li>Sostegno a famiglie con adolescenti</li>
-    <li>Colloqui individuali</li>
-    <li>In presenza e online</li>
-  </ul>
-</section>
+  <section class="card third">
+    <h2>Per chi</h2>
+    <p class="small">
+      Genitori, coppie genitoriali, famiglie con adolescenti, giovani adulti.
+    </p>
+  </section>
 
-<section>
-  <h2>Contatti</h2>
-  <p>Email: <strong>marianna.trevisiol@gmail.com</strong></p>
-  <p>Città: …</p>
-</section>
+  <section class="card third">
+    <h2>Come lavoro</h2>
+    <p class="small">
+      Colloqui strutturati, obiettivi condivisi, strumenti pratici tra un incontro e l’altro.
+    </p>
+  </section>
 
-<footer>
-  <p>© 2026 – Tutti i diritti riservati</p>
+  <section class="card third">
+    <h2>Obiettivi</h2>
+    <p class="small">
+      Migliorare comunicazione, regole e confini, gestione dei conflitti, alleanza genitoriale.
+    </p>
+  </section>
+
+  <section class="card half">
+    <h2>Cosa puoi aspettarti</h2>
+    <ul>
+      <li>Uno spazio di ascolto e orientamento.</li>
+      <li>Indicazioni pratiche per gestire situazioni difficili.</li>
+      <li>Una lettura relazionale delle dinamiche familiari.</li>
+    </ul>
+  </section>
+
+  <section class="card half">
+    <h2>Servizi principali</h2>
+    <ul>
+      <li>Colloquio psicologico e psicoterapia individuale</li>
+      <li>Psicoterapia di coppia</li>
+      <li>Consulenza genitoriale</li>
+      <li>Psicoterapia familiare</li>
+      <li>Percorsi con adolescenti e bambini</li>
+      <li>Consulenza psicologica online</li>
+    </ul>
+    <p class="small">Dettagli e modalità nella pagina “Servizi”.</p>
+  </section>
+
+</main>
+
+<footer class="container footer">
+  <div>© <span id="y"></span> Dott.ssa Marianna Trevisiol</div>
+  <div class="small">Questo sito ha scopo informativo e non sostituisce una valutazione professionale.</div>
 </footer>
+
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
