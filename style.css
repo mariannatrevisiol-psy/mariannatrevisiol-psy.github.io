@@ -633,6 +633,10 @@ body { outline: 6px solid red !important; }
 }
 /* Citazione Home */
 .hero > p {
-  font-size: 24px;
+  font-size: 26px;
+  line-height: 1.6;
+}
+.hero .lead {
+  font-size: 26px;
   line-height: 1.6;
 }
