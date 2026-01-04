@@ -591,3 +591,20 @@ body { outline: 6px solid red !important; }
   opacity: 1;
   pointer-events: auto;
 }
+/* --- CHI SONO: testo + foto affiancati e centrati --- */
+
+.about-grid {
+  display: flex;
+  gap: 40px;
+  align-items: center; /* centra verticalmente la foto */
+}
+
+.about-text {
+  flex: 2;
+}
+
+.about-photo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
