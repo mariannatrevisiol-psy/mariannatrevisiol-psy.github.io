@@ -285,3 +285,24 @@ url("hero.jpg");
   font-size: 16px;
   font-weight: 500;
 }
+/* FORZA STILE HERO (vince su tutto) */
+.hero-banner .hero-title{
+  font-family: 'Playfair Display', serif !important;
+  font-size: 84px !important;
+  line-height: 1.05 !important;
+  font-weight: 600 !important;
+}
+
+.hero-banner .hero-sub{
+  font-size: 28px !important;
+  margin-top: 10px !important;
+}
+
+/* Citazione più in basso e leggibile */
+.hero-banner .hero-quote{
+  display: block;
+  margin-top: 34px !important;
+  font-style: italic;
+  font-size: 18px !important;
+  opacity: 0.95;
+}
