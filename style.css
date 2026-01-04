@@ -467,4 +467,21 @@ body { outline: 6px solid red !important; }
   padding: 8px 0;
   font-size: 18px;
 }
+/* Pulsante WhatsApp nel menu */
+.btn-whatsapp-menu{
+  margin-left: 18px;
+  padding: 8px 14px;
+  border-radius: 18px;
+  background-color: #25D366;
+  color: white !important;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 14px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.btn-whatsapp-menu:hover{
+  opacity: 0.9;
+  transform: scale(1.05);
+}
 
