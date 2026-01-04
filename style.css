@@ -242,7 +242,8 @@ ul{margin: 8px 0 0 18px}
   align-items:center;
   justify-content:center;
   text-align:center;
-  padding: 90px 18px 50px;
+  padding: 140px 20px 90px;
+min-height: 70vh;
   position: relative;
   color: white;
  background-image:
@@ -257,7 +258,8 @@ url("hero.jpg");
 }
 
 .hero-title{
-  font-size: 52px;
+  font-size: 64px;
+letter-spacing: 1px;
   line-height: 1.05;
   margin: 0 0 10px;
   font-weight: 700;
@@ -265,7 +267,8 @@ url("hero.jpg");
 
 .hero-sub{
   margin: 0;
-  font-size: 18px;
+font-size: 22px;
+margin-top: 10px;
   opacity: .95;
 }
 
