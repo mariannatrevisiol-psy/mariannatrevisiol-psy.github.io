@@ -626,3 +626,8 @@ body { outline: 6px solid red !important; }
 .card {
   margin-bottom: 40px;
 }
+/* Citazione in Home – font più grande */
+.hero p {
+  font-size: 22px;
+  line-height: 1.6;
+}
