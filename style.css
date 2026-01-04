@@ -578,3 +578,16 @@ body { outline: 6px solid red !important; }
   margin: 0;
   line-height: 1.6;
 }
+/* MENU – link sempre cliccabili e stessa dimensione */
+.menu a {
+  font-size: 16px;
+  padding: 8px 12px;
+  display: inline-block;
+}
+
+/* stato attivo (pagina corrente) */
+.menu a.active {
+  font-weight: 600;
+  opacity: 1;
+  pointer-events: auto;
+}
