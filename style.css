@@ -372,3 +372,13 @@ h3 { font-size: 1.35rem; }
 
 /* ====== SPAZIATURE TESTI ====== */
 .card p{ margin: 0.8rem 0; }
+
+body{
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.card p{
+  font-size: 1.05rem;
+}
+
