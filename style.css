@@ -97,11 +97,11 @@ a:hover{text-decoration:underline}
   padding-bottom: 30px;
 }
 
-.card {
-  background: #f3e1dc; /* rosa pesca / rosa antico */
-  padding: 32px;
+.card{
+  padding: 36px;          /* riquadro più grande */
   border-radius: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 0;       /* lo spazio lo gestiamo con page-section */
+}
 
   box-shadow: 0 10px 25px rgba(0,0,0,0.05);
 }
