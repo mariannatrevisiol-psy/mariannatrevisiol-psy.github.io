@@ -404,3 +404,17 @@ body { outline: 6px solid red !important; }
   gap: 22px;
 }
 
+.about-photo{
+  display:flex;
+  justify-content:center;
+  margin: 18px 0 26px;
+}
+
+.about-photo img{
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 18px;
+  border: 1px solid rgba(120,160,190,0.35);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.10);
+}
