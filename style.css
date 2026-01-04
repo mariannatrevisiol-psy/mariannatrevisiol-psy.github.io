@@ -527,7 +527,7 @@ body { outline: 6px solid red !important; }
     grid-template-columns: 1fr;
   }
 }
-/* GRID AREE DI INTERVENTO */
+/* GRID AREE DI INTERV.ENTO */
 .container.grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -609,7 +609,7 @@ body { outline: 6px solid red !important; }
   justify-content: center;
 }
 .page-section{
-  margin: 48px 0;
+  margin: 90px 0;
 }
 
 .card{
