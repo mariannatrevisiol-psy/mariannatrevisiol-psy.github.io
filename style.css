@@ -265,10 +265,9 @@ url("hero.jpg");
   margin: 0 0 18px;
   font-weight: 600;
 }
-
 .hero-sub{
-  font-size: 24px;
-  margin-top: 8px;
+  font-size: 26px;
+  margin-top: 10px;
 }
 
 /* Menu sopra l’immagine */
