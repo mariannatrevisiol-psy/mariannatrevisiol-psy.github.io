@@ -428,4 +428,9 @@ body { outline: 6px solid red !important; }
   font-size: 28px;
   margin-top: 0;
 }
+.lead{
+  font-size: 18px;
+  margin: 8px 0 18px;
+  opacity: 0.9;
+}
 
