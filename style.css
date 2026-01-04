@@ -247,7 +247,13 @@ ul{margin: 8px 0 0 18px}
   color: white;
   background-image:
     linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
-    url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80");
+    urlbackground-image:
+  linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
+  image-set(
+    url("hero.jpg") 1x,
+    url("hero@2x.jpg") 2x
+  );
+
   background-size: cover;
   background-position: center;
 }
