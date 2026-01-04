@@ -608,3 +608,11 @@ body { outline: 6px solid red !important; }
   display: flex;
   justify-content: center;
 }
+.page-section{
+  margin: 48px 0;
+}
+
+.card{
+  padding: 36px;
+  border-radius: 20px;
+}
