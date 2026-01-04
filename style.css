@@ -622,3 +622,7 @@ body { outline: 6px solid red !important; }
   padding: 36px;
   border-radius: 20px;
 }
+/* Spazio più ampio tra i riquadri */
+.card {
+  margin-bottom: 40px;
+}
