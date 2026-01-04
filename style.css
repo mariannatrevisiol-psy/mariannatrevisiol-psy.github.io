@@ -97,13 +97,13 @@ a:hover{text-decoration:underline}
   padding-bottom: 30px;
 }
 
-.card{
-  grid-column: span 12;
-  background: var(--card);
-  border:1px solid var(--border);
-  border-radius: 16px;
-  padding: 18px;
-  box-shadow: 0 8px 18px rgba(0,0,0,.04);
+.card {
+  background: #f3dede; /* rosa antico */
+  padding: 32px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
 }
 
 @media (min-width: 820px){
