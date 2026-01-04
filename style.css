@@ -616,3 +616,9 @@ body { outline: 6px solid red !important; }
   padding: 36px;
   border-radius: 20px;
 }
+.card{
+  max-width: 860px;   /* ⬅️ riduce la larghezza */
+  margin: 0 auto;     /* ⬅️ centra il riquadro */
+  padding: 36px;
+  border-radius: 20px;
+}
