@@ -319,12 +319,11 @@ h3 { font-size: 1.35rem; }
 
 /* ====== SEZIONI A SFONDO COLORATO ====== */
 .section{
-  padding: 56px 0;
-  background: #f3f6f4;   /* verde/grigio chiarissimo */
+  background: #f4f7fb;   /* azzurro chiarissimo */
 }
 
 .section.alt{
-  background: #eef2f7;   /* azzurro/grigio chiarissimo */
+  background: #eaf0f8;   /* azzurro leggermente più intenso */
 }
 
 .section .container{
