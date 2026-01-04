@@ -259,12 +259,12 @@ url("hero.jpg");
 }
 
 .hero-title{
-  font-family: 'Playfair Display', serif;
-  font-size: 80px;
-  line-height: 1.05;
-  margin: 0 0 18px;
-  font-weight: 600;
+  font-family: 'Great Vibes', cursive;
+  font-size: 82px;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
+
 .hero-sub{
   font-size: 26px;
   margin-top: 10px;
