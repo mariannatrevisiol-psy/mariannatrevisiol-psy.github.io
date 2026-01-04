@@ -385,4 +385,22 @@ body{
 }
 body { outline: 6px solid red !important; }
 
+/* --- CHI SONO: riquadri più ariosi e azzurri --- */
+.page-section{
+  margin: 28px auto;              /* spazio tra i riquadri */
+}
+
+.card{
+  background: rgba(210, 230, 245, 0.75);  /* azzurro leggero */
+  border: 1px solid rgba(120, 160, 190, 0.25);
+  border-radius: 18px;            /* angoli arrotondati */
+  padding: 26px;                  /* riquadro più grande */
+  margin: 22px 0;                 /* spazio tra i riquadri */
+  box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+}
+
+/* se hai una griglia di riquadri */
+.grid{
+  gap: 22px;
+}
 
