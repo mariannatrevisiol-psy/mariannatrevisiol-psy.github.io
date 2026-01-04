@@ -479,6 +479,18 @@ body { outline: 6px solid red !important; }
   font-size: 14px;
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
+.page-section {
+  display: flex;
+  gap: 24px;              /* spazio tra i riquadri */
+  flex-wrap: wrap;        /* vanno a capo su schermi piccoli */
+  align-items: stretch;
+}
+
+/* ogni riquadro */
+.page-section .card {
+  flex: 1 1 220px;        /* larghezza flessibile */
+}
+
 
 .btn-whatsapp-menu:hover{
   opacity: 0.9;
