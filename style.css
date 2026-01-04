@@ -485,3 +485,14 @@ body { outline: 6px solid red !important; }
   transform: scale(1.05);
 }
 
+.card h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+  color: #5a3b3b; /* marrone rosato */
+}
+
+.card p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #3a2a2a;
+}
