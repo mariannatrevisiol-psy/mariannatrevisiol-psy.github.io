@@ -383,4 +383,6 @@ body{
 .card p{
   font-size: 1.05rem;
 }
+body { outline: 6px solid red !important; }
+
 
