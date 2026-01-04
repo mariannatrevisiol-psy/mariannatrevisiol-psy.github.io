@@ -539,3 +539,26 @@ body { outline: 6px solid red !important; }
 .container.grid .card {
   width: 100%;
 }
+/* AREE DI INTERVENTO: UNA SEZIONE PER RIGA */
+.container.grid{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* CARD ORIZZONTALE */
+.service-row{
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.service-row h2{
+  min-width: 260px;
+  margin-top: 0;
+}
+
+.service-row .small{
+  flex: 1;
+}
