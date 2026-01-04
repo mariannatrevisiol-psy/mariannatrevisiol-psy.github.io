@@ -245,14 +245,10 @@ ul{margin: 8px 0 0 18px}
   padding: 90px 18px 50px;
   position: relative;
   color: white;
-  background-image:
-    linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
-    urlbackground-image:
-  linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
-  image-set(
-    url("hero.jpg") 1x,
-    url("hero@2x.jpg") 2x
-  );
+ background-image:
+linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
+url("hero.jpg");
+
 
   background-size: cover;
   background-position: center;
