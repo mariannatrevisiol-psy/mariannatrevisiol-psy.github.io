@@ -562,3 +562,19 @@ body { outline: 6px solid red !important; }
 .service-row .small{
   flex: 1;
 }
+/* AREE DI INTERVENTO – titolo sopra, testo sotto */
+.service-row{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.service-row h2{
+  margin: 0;
+  font-size: 20px;
+}
+
+.service-row .small{
+  margin: 0;
+  line-height: 1.6;
+}
