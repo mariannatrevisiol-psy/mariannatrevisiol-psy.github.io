@@ -335,6 +335,11 @@ h3 { font-size: 1.35rem; }
   padding: 0 18px;
 }
 
+.section {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
 /* ====== CARD (blocchi interni chiari) ====== */
 .card{
   background: rgba(255,255,255,0.85);
