@@ -983,4 +983,66 @@ body{
 .section {
   padding: 60px 0;
 }
+/* =========================
+   UNIFORMAZIONE TUTTE LE PAGINE
+   ========================= */
+
+/* 1) Stesso padding per tutte le sezioni (sia .section che .page-section) */
+.section,
+.page-section {
+  padding: 40px 0;
+}
+
+/* 2) Stessa larghezza “leggibile” per i contenuti dentro le sezioni */
+.section > .container,
+.page-section > .container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 18px;
+}
+
+/* 3) Riquadri: stessa larghezza e stessi margini su tutte le pagine */
+.section .card,
+.page-section .card {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 4) Spazio tra riquadri: uguale ovunque (più stretto) */
+.section .card:not(:last-child),
+.page-section .card:not(:last-child) {
+  margin-bottom: 14px; /* <-- qui regoli “quanto vicini” */
+}
+
+/* 5) Se qualche sezione “incolla” troppo sopra/sotto, manteniamo coerenza */
+.section:first-child,
+.page-section:first-child {
+  padding-top: 40px;
+}
+
+/* 6) Contatti: testo più leggero (simile a “Aree di intervento”) */
+.page-section .card p,
+.page-section .card a {
+  font-weight: 300;
+  color: rgba(0,0,0,0.72);
+}
+
+/* 7) Mobile: respiro più compatto e riquadri sempre pieni */
+@media (max-width: 640px) {
+  .section,
+  .page-section {
+    padding: 26px 0;
+  }
+
+  .section > .container,
+  .page-section > .container {
+    padding: 0 14px;
+  }
+
+  .section .card:not(:last-child),
+  .page-section .card:not(:last-child) {
+    margin-bottom: 12px;
+  }
+}
 
