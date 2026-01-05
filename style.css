@@ -345,7 +345,7 @@ h3 { font-size: 1.35rem; }
 }
 /* SPAZIO UNIFORME TRA I RIQUADRI */
 .section .card {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .section .card:last-child {
