@@ -806,3 +806,44 @@ body{
   text-align: center;
   color: white;
 }
+/* ========== FIX MENU (non deve spostarsi tra pagine) ========== */
+
+.topbar{
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: rgba(255,255,255,.85);
+  backdrop-filter: blur(6px);
+}
+
+.container.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.brand{
+  white-space: nowrap;      /* il nome non va a capo */
+  flex: 0 0 auto;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  flex-wrap: nowrap;        /* niente a capo */
+  margin-left: auto;        /* spinge il menu a destra */
+  white-space: nowrap;
+}
+
+.menu a{
+  display: inline-block;
+  padding: 10px 8px;
+}
+
+.btn-whatsapp-menu{
+  margin-left: 18px;
+  white-space: nowrap;
+  flex: 0 0 auto;
+}
