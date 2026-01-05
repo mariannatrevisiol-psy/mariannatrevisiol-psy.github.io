@@ -640,3 +640,10 @@ body { outline: 6px solid red !important; }
   font-size: 26px;
   line-height: 1.6;
 }
+.hero-quote{
+  margin-top: 28px;
+  font-style: italic;
+  font-size: 24px;   /* qui è il “più grande” */
+  line-height: 1.6;
+  opacity: 0.95;
+}
