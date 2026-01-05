@@ -743,3 +743,18 @@ body{
   line-height: 1.4;
   opacity: 0.95;
 }
+/* FORZA il font firma sulla Home */
+.hero-banner .hero-title{
+  font-family: 'Allura', 'Brush Script MT', cursive !important;
+  font-style: normal !important;     /* Allura è già corsivo */
+  font-weight: 400 !important;
+  font-size: 78px !important;
+  text-align: center;
+  background: none !important;
+  padding: 0 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  letter-spacing: 1px;
+  text-shadow: 0 6px 18px rgba(0,0,0,.35);
+}
