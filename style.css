@@ -758,3 +758,8 @@ body{
   letter-spacing: 1px;
   text-shadow: 0 6px 18px rgba(0,0,0,.35);
 }
+/* Sposta il testo della hero più in alto */
+.hero-banner > div{
+  padding-top: 40px;     /* aumenta se vuoi ancora più su */
+  padding-bottom: 120px;
+}
