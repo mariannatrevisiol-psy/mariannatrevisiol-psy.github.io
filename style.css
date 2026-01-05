@@ -647,3 +647,12 @@ body { outline: 6px solid red !important; }
   line-height: 1.6;
   opacity: 0.95;
 }
+/* Nome in Home – stile firma */
+.hero-title{
+  font-family: 'Allura', cursive;
+  font-size: 64px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
