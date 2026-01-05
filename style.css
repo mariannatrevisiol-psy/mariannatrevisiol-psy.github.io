@@ -792,3 +792,17 @@ body{
   letter-spacing: 1px;
   text-align: center;
 }
+.page-hero {
+  background-image: url("hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  color: white;
+}
