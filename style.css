@@ -1116,3 +1116,132 @@ body{
     font-size: 0.9rem;
   }
 }
+/* =========================
+   ULTIMA RIFINITURA – CONSISTENZA & POLISH
+   ========================= */
+
+/* Spazi coerenti tra sezioni e riquadri */
+.section,
+.page-section{
+  padding: 34px 0;
+}
+
+.section .card,
+.page-section .card{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 980px;
+}
+
+.section .card:not(:last-child),
+.page-section .card:not(:last-child){
+  margin-bottom: 12px;
+}
+
+/* Riquadri: più “premium” ma delicati */
+.card{
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.06);
+  border: 1px solid rgba(0,0,0,0.06);
+}
+
+/* Tipografia: più pulita e leggibile */
+.card h2{
+  margin: 0 0 10px 0;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.card p{
+  margin: 0 0 10px 0;
+  line-height: 1.65;
+}
+
+.card p:last-child{
+  margin-bottom: 0;
+}
+
+/* Link più eleganti */
+a{
+  text-underline-offset: 3px;
+}
+
+/* Barra menu stabile e leggibile */
+.topbar{
+  background: rgba(255,255,255,0.88);
+  backdrop-filter: blur(8px);
+}
+
+.menu a{
+  padding: 10px 10px;
+  border-radius: 12px;
+}
+
+.menu a:hover{
+  background: rgba(0,0,0,0.04);
+}
+
+/* Pulsanti (WhatsApp ecc.) */
+.btn-whatsapp,
+.btn-whatsapp-menu{
+  border-radius: 14px;
+}
+
+/* Banner pagine interne: titolo più leggibile su foto */
+.page-hero::before{
+  background: rgba(0,0,0,0.28);
+}
+
+/* =========================
+   MOBILE POLISH
+   ========================= */
+@media (max-width: 768px){
+
+  .section,
+  .page-section{
+    padding: 24px 0;
+  }
+
+  .card{
+    padding: 18px;
+    border-radius: 16px;
+  }
+
+  .card h2{
+    font-size: 1.22rem;
+  }
+
+  .page-hero{
+    height: 170px;
+  }
+
+  .page-hero h1{
+    font-size: 1.65rem;
+    padding: 0 14px;
+  }
+
+  /* tappabilità menu */
+  .menu{
+    gap: 12px;
+  }
+
+  .menu a{
+    padding: 12px 12px;
+  }
+
+  /* bottoni più comodi */
+  .btn-whatsapp,
+  .btn-whatsapp-menu{
+    padding: 12px 16px;
+  }
+}
+
+@media (max-width: 420px){
+  .page-hero{
+    height: 155px;
+  }
+  .page-hero h1{
+    font-size: 1.5rem;
+  }
+}
