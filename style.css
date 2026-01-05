@@ -322,7 +322,7 @@ h3 { font-size: 1.35rem; }
 /* ====== SEZIONI A SFONDO COLORATO ====== */
 .section {
   background: #f4f7fb;
-  padding: 100px 0;   /* ← QUESTO È LO SPAZIO GRANDE */
+  padding: 20px 0;   /* prima era più grande */
 }
 
 .section.alt{
@@ -366,6 +366,13 @@ h3 { font-size: 1.35rem; }
 
 @media (max-width: 820px){
   .grid-2{ grid-template-columns: 1fr; }
+}
+.section .card {
+  margin-bottom: 12px;   /* spazio tra i riquadri */
+}
+
+.section .card:last-child {
+  margin-bottom: 0;
 }
 
 /* ====== FOTO PROFILO ====== */
