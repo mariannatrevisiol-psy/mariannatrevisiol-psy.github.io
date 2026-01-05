@@ -965,3 +965,18 @@ body{
     font-size: 26px;
   }
 }
+/* =========================
+   CONTATTI – spazi più stretti
+   ========================= */
+.page-contatti .section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.page-contatti .card {
+  margin-bottom: 8px;
+}
+
+.page-contatti .card:last-child {
+  margin-bottom: 0;
+}
