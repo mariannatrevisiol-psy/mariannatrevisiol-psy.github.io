@@ -342,7 +342,14 @@ h3 { font-size: 1.35rem; }
   padding: 22px;
   box-shadow: 0 8px 24px rgba(0,0,0,0.06);
 }
+/* SPAZIO UNIFORME TRA I RIQUADRI */
+.section .card {
+  margin-bottom: 20px;
+}
 
+.section .card:last-child {
+  margin-bottom: 0;
+}
 /* ====== GRIGLIA TESTO + FOTO ====== */
 .grid-2{
   display: grid;
