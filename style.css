@@ -320,8 +320,9 @@ h3 { font-size: 1.35rem; }
 .brand { font-size: 1.05rem; }
 
 /* ====== SEZIONI A SFONDO COLORATO ====== */
-.section{
-  background: #f4f7fb;   /* azzurro chiarissimo */
+.section {
+  background: #f4f7fb;
+  padding: 100px 0;   /* ← QUESTO È LO SPAZIO GRANDE */
 }
 
 .section.alt{
