@@ -1045,4 +1045,75 @@ body{
     margin-bottom: 12px;
   }
 }
+/* =======================
+   MOBILE (smartphone)
+   ======================= */
+@media (max-width: 768px) {
+
+  /* spazio generale pagina */
+  body {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  /* sezioni */
+  .section,
+  .page-section {
+    padding: 24px 0;
+  }
+
+  /* contenitore */
+  .section .container,
+  .page-section .container {
+    padding: 0 14px;
+  }
+
+  /* riquadri */
+  .card {
+    padding: 18px;
+    margin-bottom: 14px;
+  }
+
+  /* titoli nei riquadri */
+  .card h2 {
+    font-size: 1.3rem;
+  }
+
+  /* testi */
+  .card p {
+    font-weight: 400;
+  }
+
+  /* griglia testo + foto (Chi sono) */
+  .grid-2 {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  /* hero */
+  .page-hero {
+    height: 180px;
+  }
+
+  .page-hero h1 {
+    font-size: 1.8rem;
+    padding: 0 12px;
+  }
+
+  /* menu */
+  .menu {
+    gap: 14px;
+  }
+
+  .menu a {
+    font-size: 0.95rem;
+  }
+
+  /* pulsante WhatsApp */
+  .btn-whatsapp,
+  .btn-whatsapp-menu {
+    padding: 10px 14px;
+    font-size: 0.9rem;
+  }
+}
 
