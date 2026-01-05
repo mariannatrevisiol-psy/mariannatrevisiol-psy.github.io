@@ -885,3 +885,83 @@ body{
 .page-contatti .section + .section{
   padding-top: 0;
 }
+/* =========================
+   MOBILE / RESPONSIVE
+   ========================= */
+@media (max-width: 768px) {
+
+  /* navbar: va a capo in modo ordinato */
+  .container.nav{
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .brand{
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu{
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;           /* permette di andare a capo */
+    gap: 12px;
+    margin-left: 0;
+  }
+
+  .btn-whatsapp-menu{
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  /* banner pagine interne */
+  .page-hero{
+    height: 180px;             /* più basso su mobile */
+    background-position: center 35%;
+  }
+
+  .page-hero h1{
+    font-size: 30px;
+    padding: 0 12px;
+  }
+
+  /* sezioni e riquadri: più “ariosi” ma compatti */
+  .section{
+    padding: 14px 0;
+  }
+
+  .section .container{
+    padding: 0 14px;
+  }
+
+  .card{
+    padding: 16px;
+  }
+
+  .section .card{
+    margin-bottom: 10px;       /* coerente con desktop */
+  }
+
+  /* griglia testo+foto (Chi sono): da 2 colonne a 1 colonna */
+  .grid-2{
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  /* immagini dentro i riquadri: sempre responsive */
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 420px) {
+  /* ancora più piccolo (telefoni stretti) */
+  .page-hero{
+    height: 160px;
+  }
+  .page-hero h1{
+    font-size: 26px;
+  }
+}
