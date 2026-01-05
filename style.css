@@ -765,10 +765,12 @@ body{
 }
 /* HERO DELLE PAGINE INTERNE */
 .page-hero {
-  height: 260px;
-  background-image: url("fiore-header.jpg");
+  background-image: url("hero.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+}
+
   display: flex;
   align-items: center;
   justify-content: center;
