@@ -1245,3 +1245,25 @@ a{
     font-size: 1.5rem;
   }
 }
+.cta-final {
+  text-align: center;
+  margin: 4rem 1rem 2rem;
+}
+
+.btn-cta {
+  display: inline-block;
+  padding: 12px 26px;
+  background-color: transparent;
+  color: #4f7c7a;
+  border: 1px solid #4f7c7a;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 400;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.btn-cta:hover {
+  background-color: #4f7c7a;
+  color: #ffffff;
+}
