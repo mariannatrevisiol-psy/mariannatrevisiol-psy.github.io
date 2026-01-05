@@ -856,3 +856,25 @@ body{
 .section .card:last-child {
   margin-bottom: 0;
 }
+/* =========================
+   PAGINA CONTATTI: riquadri più stretti e più vicini
+   ========================= */
+.page-contatti .card{
+  max-width: 820px;        /* riquadro più stretto */
+  margin: 0 auto 12px;     /* centrato + spazio sotto più piccolo */
+}
+
+.page-contatti .card:last-child{
+  margin-bottom: 0;
+}
+
+/* se i riquadri sono in sezioni diverse, riduco il “vuoto” della sezione */
+.page-contatti .section{
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+/* se hai 2 sezioni una dopo l’altra, elimina lo spazio sopra la seconda */
+.page-contatti .section + .section{
+  padding-top: 0;
+}
