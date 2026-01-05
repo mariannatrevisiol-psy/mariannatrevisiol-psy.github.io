@@ -763,51 +763,7 @@ body{
   padding-top: 40px;     /* aumenta se vuoi ancora più su */
   padding-bottom: 120px;
 }
-/* HERO DELLE PAGINE INTERNE */
-.page-hero {
-  background-image: url("hero.jpg");
-  background-size: cover;
-  background-position: center 30%;
-  background-repeat: no-repeat;
-}
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 60px;
-  position: relative;
-}
-
-/* leggero velo per rendere leggibile il testo */
-.page-hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.25);
-}
-
-.page-hero h1 {
-  position: relative;
-  color: white;
-  font-size: 46px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  text-align: center;
-}
-.page-hero {
-  background-image: url("hero.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  height: 260px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  text-align: center;
-  color: white;
-}
 /* ========== FIX MENU (non deve spostarsi tra pagine) ========== */
 
 .topbar{
@@ -848,4 +804,39 @@ body{
   margin-left: 18px;
   white-space: nowrap;
   flex: 0 0 auto;
+}
+/* HERO DELLE PAGINE INTERNE */
+.page-hero{
+  background-image: url("hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /* Qui sposti l’inquadratura: più alto/basso */
+  background-position: center 65%;
+
+  height: 260px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 60px;
+  position: relative;
+}
+
+/* leggero velo per rendere leggibile il testo */
+.page-hero::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.page-hero h1{
+  position: relative;
+  color: #fff;
+  font-size: 46px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
 }
