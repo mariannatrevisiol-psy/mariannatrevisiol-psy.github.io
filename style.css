@@ -980,11 +980,4 @@ body{
 .page-contatti .card:last-child {
   margin-bottom: 0;
 }
-/* CONTATTI – testo più leggero */
-.page-contatti .card,
-.page-contatti .card p,
-.page-contatti .card a {
-  font-weight: 300;
-  font-size: 15.5px;
-  line-height: 1.6;
-}
+
