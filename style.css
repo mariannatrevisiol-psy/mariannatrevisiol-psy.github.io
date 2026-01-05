@@ -666,7 +666,7 @@ body{
 
 .hero-title {
   font-family: 'Allura', 'Brush Script MT', cursive;
-  font-size: 64px;
+  font-size: 68px;
   font-weight: 400;
   margin-bottom: 12px;
 }
@@ -693,11 +693,12 @@ body{
   padding: 90px 20px 80px;
 }
 
-.hero-title {
+.hero-title{
   font-family: 'Allura', 'Brush Script MT', cursive;
-  font-size: 64px;
-  font-weight: 400;
-  margin-bottom: 12px;
+  font-style: italic;
+  font-size: 68px;
+  text-align: center;
+  margin: 0 0 18px 0;
 }
 
 .hero-sub {
